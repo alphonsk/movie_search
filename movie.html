@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="movie.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body   style="font-family: Arial, Helvetica, sans-serif; background-color: #ebe9eb;" onload="getLet()";>
+    
+    <div class="allContainer">   
+    <div class="header"> 
+        <div class="clearfix">
+            <div class="logo" >
+                <img src="movies_logo.png" alt="log" height="60px"  >   
+            </div>
+    
+                <div class="name" >
+                        Movie Search
+                </div>
+    
+                <div class="search">
+                        <div>
+                           <input type="text"  name="search"  id="input"   placeholder="Search..">  
+                        
+                        </div>      
+                </div>
+        </div>
+    </div>
+    
+    <div class="special">
+                <img src="movie_banner.png" alt="log" height="100%" width="100%" >  
+    </div>
+ 
+
+
+    <div class="movies">
+        <div id="feature" style="text-align: center; padding-top: 20px">
+                <h3>Featured </h3> 
+        </div>
+        <div class="img">
+            <div id='poster' style="display: block; margin-left: 
+            auto;margin-right:auto; "></div>
+        </div>
+        <div class="content">
+            <div class="title" id='title'></div>
+            <div class="year" id='year'></div>
+            <div class="rate" id='rate'></div>
+            <div class="genre" id='genre'></div>
+            <div class="plot" id="plot"></div>
+            
+        </div>
+            
+            
+     </div>
+
+     <div class="footer"> 
+            <div class="clearfix">
+                <div class="logo" >
+                    <img src="movies_logo.png" alt="log" height="50px"  >   
+                </div>
+                <div class="fb" >
+                        <img src="movie_fb.png" alt="log" height="50px"  >   
+                </div>
+                <div class="ig" >
+                        <img src="movie_ig.png" alt="log" height="50px"  >   
+                </div>
+                <div class="twt" >
+                        <img src="movie_twt.png" alt="log" height="50px"  >   
+                </div>
+                <div class="mail" >
+                        <img src="movie_mail.png" alt="log" height="50px"  >   
+                </div>
+            </div>
+    </div>
+</div>  
+</div>
+
+
+<script src="movie.js"></script>
+
+</body>
+
+</html>
